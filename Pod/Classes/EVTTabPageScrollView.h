@@ -60,4 +60,6 @@
 -(instancetype)initWithPageItems:(NSArray *)pageItems withDelegate:(id<EVTTabPageScrollViewDelegate>)deleate;
 -(instancetype)initWithPageItems:(NSArray *)pageItems withParameter:(EVTTabPageScrollViewParameter*)parameter withDelegate:(id<EVTTabPageScrollViewDelegate>)deleate;
 
+- (void)setSelectedTabIndex:(NSInteger)index;
+
 @end

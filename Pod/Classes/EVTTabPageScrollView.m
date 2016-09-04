@@ -263,5 +263,11 @@
     }
 }
 
+- (void)setSelectedTabIndex:(NSInteger)index {
+    CGFloat width = _contentView.frame.size.width;
+    
+    [_contentView setContentOffset:CGPointMake(width * index, 0)];
+    [self scrollViewDidScroll:_contentView];
+}
 
 @end
