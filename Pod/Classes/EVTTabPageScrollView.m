@@ -232,6 +232,8 @@
 
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
     CGFloat width = scrollView.frame.size.width;
+    if (width == 0)
+        width = [[UIScreen mainScreen] bounds].size.width;
     int tabIndex = (scrollView.contentOffset.x + (0.5f * width)) / width;
     
     for(UIButton *button in _tabButtons){
@@ -266,8 +268,10 @@
 - (void)setSelectedTabIndex:(NSInteger)index {
     CGFloat width = _contentView.frame.size.width;
     
+    if (width == 0)
+        width = [[UIScreen mainScreen] bounds].size.width;
+    
     [_contentView setContentOffset:CGPointMake(width * index, 0)];
-    [self scrollViewDidScroll:_contentView];
 }
 
 @end
