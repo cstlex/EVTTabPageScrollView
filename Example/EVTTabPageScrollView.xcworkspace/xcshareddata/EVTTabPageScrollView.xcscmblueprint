@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4FE32388FF68706AFB7457C6B04CC8F6573A062F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4FE32388FF68706AFB7457C6B04CC8F6573A062F" : 0,
+    "AC6386E83E0398695FD37B81D690791E98A16E7D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6C5FB708-F2D7-4449-A588-1742119959AE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4FE32388FF68706AFB7457C6B04CC8F6573A062F" : "EVTTabPageScrollView\/",
+    "AC6386E83E0398695FD37B81D690791E98A16E7D" : "..\/..\/..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EVTTabPageScrollView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/EVTTabPageScrollView.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:everettjf\/EVTTabPageScrollView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4FE32388FF68706AFB7457C6B04CC8F6573A062F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:englishonthego\/onthego.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AC6386E83E0398695FD37B81D690791E98A16E7D"
+    }
+  ]
+}
