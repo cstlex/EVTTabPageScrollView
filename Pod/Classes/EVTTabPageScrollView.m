@@ -92,6 +92,9 @@
     UIView *rootView = self;
     // Load tabs
     UIView *tabView = [UIView new];
+    if (@available(iOS 13, *)) {
+        [tabView setBackgroundColor:[UIColor systemBackgroundColor]];
+    }
     [rootView addSubview:tabView];
     [tabView mas_makeConstraints:^(MASConstraintMaker *make){
         make.left.equalTo(rootView.mas_left);
