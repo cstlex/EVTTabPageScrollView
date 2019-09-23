@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54C7CA39B83DA4CCF273AE07 /* libPods-EVTTabPageScrollView_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AC6A5AC2B760768D5BB499 /* libPods-EVTTabPageScrollView_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,9 +20,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6B16E06D27144C755F4617DD /* libPods-EVTTabPageScrollView_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8622BCEAB080E8F55D00FFD /* libPods-EVTTabPageScrollView_Tests.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		CD9C7ED0FE38CACAAD9C6E0D /* libPods-EVTTabPageScrollView_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56160745D26FE781F8D78211 /* libPods-EVTTabPageScrollView_Example.a */; };
 		D1BDE3751BB2F4270004FBDA /* Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BDE3741BB2F4270004FBDA /* Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
-		FFF6E4B6D99B9E0F7637E85F /* libPods-EVTTabPageScrollView_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFED6947E943F8DF1ECCC39 /* libPods-EVTTabPageScrollView_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		0FA7DB31EF921426904BAE90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3CFED6947E943F8DF1ECCC39 /* libPods-EVTTabPageScrollView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EVTTabPageScrollView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		51BF687F31C9CFEB7D2104AD /* Pods-EVTTabPageScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVTTabPageScrollView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EVTTabPageScrollView_Example/Pods-EVTTabPageScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1E0247DAF10C5DFAFEB1E6D6 /* Pods-EVTTabPageScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVTTabPageScrollView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EVTTabPageScrollView_Tests/Pods-EVTTabPageScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		56160745D26FE781F8D78211 /* libPods-EVTTabPageScrollView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EVTTabPageScrollView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C15BF5E747F31373DB0BC6 /* EVTTabPageScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EVTTabPageScrollView.podspec; path = ../EVTTabPageScrollView.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* EVTTabPageScrollView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EVTTabPageScrollView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,13 +60,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		66971B3B426AE3694584F8F6 /* Pods-EVTTabPageScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVTTabPageScrollView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EVTTabPageScrollView_Tests/Pods-EVTTabPageScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		68B7BE0E9E8C510C18FAA086 /* Pods-EVTTabPageScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVTTabPageScrollView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EVTTabPageScrollView_Tests/Pods-EVTTabPageScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		69FE24EA47EB83A0738F5653 /* Pods-EVTTabPageScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVTTabPageScrollView_Example.debug.xcconfig"; path = "Target Support Files/Pods-EVTTabPageScrollView_Example/Pods-EVTTabPageScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8EEF887C3215E0AF73978026 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D1AC6A5AC2B760768D5BB499 /* libPods-EVTTabPageScrollView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EVTTabPageScrollView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A9801BED12DADD28683EA1 /* Pods-EVTTabPageScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVTTabPageScrollView_Tests.release.xcconfig"; path = "Target Support Files/Pods-EVTTabPageScrollView_Tests/Pods-EVTTabPageScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D1BDE3741BB2F4270004FBDA /* Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Screen.storyboard; sourceTree = "<group>"; };
-		DC551DFD50D11872ABC417C0 /* Pods-EVTTabPageScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVTTabPageScrollView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EVTTabPageScrollView_Example/Pods-EVTTabPageScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E8622BCEAB080E8F55D00FFD /* libPods-EVTTabPageScrollView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EVTTabPageScrollView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C598226CE654F6FCBA8E92 /* Pods-EVTTabPageScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVTTabPageScrollView_Example.release.xcconfig"; path = "Target Support Files/Pods-EVTTabPageScrollView_Example/Pods-EVTTabPageScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				54C7CA39B83DA4CCF273AE07 /* libPods-EVTTabPageScrollView_Example.a in Frameworks */,
+				CD9C7ED0FE38CACAAD9C6E0D /* libPods-EVTTabPageScrollView_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,24 +88,13 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				FFF6E4B6D99B9E0F7637E85F /* libPods-EVTTabPageScrollView_Tests.a in Frameworks */,
+				6B16E06D27144C755F4617DD /* libPods-EVTTabPageScrollView_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		32865B425266EF2E67473D97 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				51BF687F31C9CFEB7D2104AD /* Pods-EVTTabPageScrollView_Example.debug.xcconfig */,
-				DC551DFD50D11872ABC417C0 /* Pods-EVTTabPageScrollView_Example.release.xcconfig */,
-				66971B3B426AE3694584F8F6 /* Pods-EVTTabPageScrollView_Tests.debug.xcconfig */,
-				68B7BE0E9E8C510C18FAA086 /* Pods-EVTTabPageScrollView_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -114,7 +103,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				32865B425266EF2E67473D97 /* Pods */,
+				D644A6C746284670905A6DBF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				D1AC6A5AC2B760768D5BB499 /* libPods-EVTTabPageScrollView_Example.a */,
-				3CFED6947E943F8DF1ECCC39 /* libPods-EVTTabPageScrollView_Tests.a */,
+				56160745D26FE781F8D78211 /* libPods-EVTTabPageScrollView_Example.a */,
+				E8622BCEAB080E8F55D00FFD /* libPods-EVTTabPageScrollView_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -196,6 +185,18 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		D644A6C746284670905A6DBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69FE24EA47EB83A0738F5653 /* Pods-EVTTabPageScrollView_Example.debug.xcconfig */,
+				F0C598226CE654F6FCBA8E92 /* Pods-EVTTabPageScrollView_Example.release.xcconfig */,
+				1E0247DAF10C5DFAFEB1E6D6 /* Pods-EVTTabPageScrollView_Tests.debug.xcconfig */,
+				93A9801BED12DADD28683EA1 /* Pods-EVTTabPageScrollView_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -203,11 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "EVTTabPageScrollView_Example" */;
 			buildPhases = (
-				1B8CB0E193EE8D97865E25CA /* Check Pods Manifest.lock */,
+				70C8FC957B814C92497F9F93 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				51671180721A63B16182BE1B /* Copy Pods Resources */,
+				D5B6914531F358B4990DD607 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,11 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "EVTTabPageScrollView_Tests" */;
 			buildPhases = (
-				5D6718D076B297555AE7DA7B /* Check Pods Manifest.lock */,
+				637E792A49CAC1CA8CBACDB6 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				72A369155B1C8F8044309B67 /* Copy Pods Resources */,
+				5289F38A9436D38B5E09AA74 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -295,64 +296,84 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1B8CB0E193EE8D97865E25CA /* Check Pods Manifest.lock */ = {
+		5289F38A9436D38B5E09AA74 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EVTTabPageScrollView_Tests/Pods-EVTTabPageScrollView_Tests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EVTTabPageScrollView/EVTTabPageScrollView.bundle",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EVTTabPageScrollView.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EVTTabPageScrollView_Tests/Pods-EVTTabPageScrollView_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		51671180721A63B16182BE1B /* Copy Pods Resources */ = {
+		637E792A49CAC1CA8CBACDB6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EVTTabPageScrollView_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EVTTabPageScrollView_Example/Pods-EVTTabPageScrollView_Example-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5D6718D076B297555AE7DA7B /* Check Pods Manifest.lock */ = {
+		70C8FC957B814C92497F9F93 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EVTTabPageScrollView_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		72A369155B1C8F8044309B67 /* Copy Pods Resources */ = {
+		D5B6914531F358B4990DD607 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EVTTabPageScrollView_Example/Pods-EVTTabPageScrollView_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EVTTabPageScrollView/EVTTabPageScrollView.bundle",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EVTTabPageScrollView.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EVTTabPageScrollView_Tests/Pods-EVTTabPageScrollView_Tests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EVTTabPageScrollView_Example/Pods-EVTTabPageScrollView_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -480,7 +501,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51BF687F31C9CFEB7D2104AD /* Pods-EVTTabPageScrollView_Example.debug.xcconfig */;
+			baseConfigurationReference = 69FE24EA47EB83A0738F5653 /* Pods-EVTTabPageScrollView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
@@ -497,7 +518,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC551DFD50D11872ABC417C0 /* Pods-EVTTabPageScrollView_Example.release.xcconfig */;
+			baseConfigurationReference = F0C598226CE654F6FCBA8E92 /* Pods-EVTTabPageScrollView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
@@ -514,7 +535,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66971B3B426AE3694584F8F6 /* Pods-EVTTabPageScrollView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 1E0247DAF10C5DFAFEB1E6D6 /* Pods-EVTTabPageScrollView_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -537,7 +558,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68B7BE0E9E8C510C18FAA086 /* Pods-EVTTabPageScrollView_Tests.release.xcconfig */;
+			baseConfigurationReference = 93A9801BED12DADD28683EA1 /* Pods-EVTTabPageScrollView_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

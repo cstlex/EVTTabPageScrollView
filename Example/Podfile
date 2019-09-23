@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'EVTTabPageScrollView_Example', :exclusive => true do
-    pod 'Masonry', '~> 0.6'
+target 'EVTTabPageScrollView_Example' do
+    pod 'Masonry', '~> 1.1.0'
   pod "EVTTabPageScrollView", :path => "../"
 end
 
-target 'EVTTabPageScrollView_Tests', :exclusive => true do
+target 'EVTTabPageScrollView_Tests' do
   pod "EVTTabPageScrollView", :path => "../"
 
   
