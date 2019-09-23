@@ -38,5 +38,5 @@ And also , it provide some parameters you could modify the default color theme.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'Masonry', '~> 0.6'
+  s.dependency 'Masonry', '~> 1.1.0'
 end
