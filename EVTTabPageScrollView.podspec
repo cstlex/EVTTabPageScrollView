@@ -38,5 +38,5 @@ And also , it provide some parameters you could modify the default color theme.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'Masonry', :git => "git@github.com:SnapKit/Masonry.git", :commit => "8bd77ea92bbe995e14c454f821200b222e5a8804"
+  s.dependency 'Masonry'
 end
